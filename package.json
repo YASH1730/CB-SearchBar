@@ -1,0 +1,38 @@
+{
+  "name": "cb-search-bar",
+  "version": "1.0.2",
+  "description": "Search bar powered by Class Bazar for showcasing their courses to the partners.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && NODE_ENV=production babel components --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YASH1730/CB-SearchBar.git"
+  },
+  "keywords": [
+    "cb-search",
+    "search-cb",
+    "cb"
+  ],
+  "author": "Yashwant Sahu CB developer <yashwantsahu3002@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YASH1730/CB-SearchBar/issues"
+  },
+  "homepage": "https://github.com/YASH1730/CB-SearchBar#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "react": "^18.0.0",
+    "@mui/material": "^5.5.2",
+    "@mui/x-data-grid": "^5.8.0",
+    "axios": "^0.26.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
